@@ -1,0 +1,15 @@
+<div ng-controller="singleUser">
+    <h1 class="header">List of Users</h1>
+    <div ng-repeat="user in oneUser" id="result">
+        <div>
+            <p id="user">User:</p>
+            <p id="userName"> {{ user.user }} </p>
+        </div>
+            <hr>
+            <div id="message">Chirped: </div>
+            <div id="userMessage">{{ user.message }}</div>
+            <button id="delete-all"ng-click="deleteData(user.user)">Delete All Chirps</button>
+    </div>
+    
+    
+</div>

@@ -1,0 +1,235 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/71/d4/1f/71d41f72fcf325ed86cbc4a62d8f4ab3--wonder-woman-tattoos-wonder-woman-logo.jpg");
+}
+.header {
+    text-align: center;
+    color: lemonchiffon;
+    /* opacity: .8; */
+    text-shadow: 1px 1px 1px deepskyblue;
+    font-size: 80px;
+    margin-top: 100px;
+}
+/*****Navbar*****/
+.navbar {
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: lemonchiffon;
+    opacity: .8;
+    position: fixed; 
+    top: 0; 
+    /*width: 30%; */
+    border: deepskyblue 2px dotted;
+    border-radius: 10px;
+    z-index: 10;
+    padding: 0 450px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: deepskyblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 30px; 
+}
+
+/******Sidebar********/
+
+#userOptions {
+    margin-top: 70px;
+}
+
+#sidenav {
+    margin-left: -5em;
+    position: fixed;
+    margin-top: 5em;
+    width: 20%;
+    height: 500px;
+    background: lemonchiffon;
+    opacity: .8;
+    float: left;
+    border-radius: 4em;
+    color: deepskyblue;
+    border: deepskyblue 2px dotted;
+}
+
+select{
+    margin-top: 0%;
+    transform: translateX(220%);
+}
+
+#userSide {
+    text-align: center;
+}
+
+#index-chirp{
+    text-align: center;
+    transform: translatey(200%);    
+}
+
+.index-input {
+    width: 80%;
+    height: 30px;
+    font-size: 1em;
+}
+
+#index-button {
+    width:100px;
+    height: 30px;
+    font-size: .8em;    
+    text-align: center;
+    background-color: deepskyblue;
+    color: lemonchiffon;
+    border: 2px lightblue dotted;
+}
+
+#index-input-div {
+    transform: translatey(-20%);
+}
+
+#whole-input {
+    transform: translatey(20%)
+}
+
+#index-submit {
+    transform: translateY(-20%);
+    height: 30px;
+    font-size: 1em;
+}
+/*****Home****/
+#content-container{
+    float: right;
+    transform: translateX(-10%);
+}
+.subBtn {
+    font-size: 1em;
+    border: 2px dotted deepskyblue;
+    border-radius: 5px;
+    background-color: lemonchiffon;
+    opacity: .8;
+}
+
+#listBtn {
+    transform: translate(28%, -700%);
+}
+select {
+    font-size: 2em;
+    transform: translate(30%, 50%);    
+}
+
+/*****Add Page*****/
+#inputDiv{
+    position:relative;
+    margin-top: 200px;
+    height: 600px;
+    width: 800px;
+    background-color: lemonchiffon;
+    opacity: .8;
+    border-radius: 10px;
+    transform:translate(50%, -10%);
+    border: 2px deepskyblue dotted;    
+}
+
+#messageInput {
+    height: 200px;
+    transform:translateY(40%);
+}
+
+#inputBtn{
+    position:absolute;
+    transform:translate(155%,110%);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#formDiv{
+    transform:translateY(12.5%);
+    
+}
+
+.input-messages {
+    width: 600px;
+}
+/*****List && Single Page*****/
+#user {
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#message {
+    text-align: center;
+    font-size: 2em;
+    margin: 40px 25px;
+}
+
+#user-input-div {
+    transform: translateX(5%)
+}
+
+#result {
+    color: deepskyblue;
+    float: right;
+    border: 2px dotted black;
+    border-radius: 6em;
+    background-color: lemonchiffon;
+    opacity: .8;
+    /* margin-right: 4em; */
+    margin: 50px;
+    word-wrap: break-word;
+    width: 25em;
+    height: 25em;
+    border: 2px deepskyblue dotted;
+}
+
+#userName {
+    font-size: 2em;    
+    text-align: center;
+    color: hotpink;
+}
+
+hr {
+    width: 500px;
+    margin-bottom: 30px auto;
+    color:deepskyblue;
+    
+    
+}
+
+#userMessage{
+    margin: 40px 40px;
+    font-size: 2em;
+    text-align: center;
+    color: hotpink;
+}
+
+
+#group-photo{
+    transform: translateX(150%);
+}
+
+input {
+    font-size: 50px;
+    display: block;
+    margin: 20px auto; 
+    transform:translateY(150%);
+    border: 2px solid deepskyblue;
+    padding: 0 20px;
+}
+
+.returnBtn {
+    font-size:2em;
+    border-radius: 10px;
+    border: deepskyblue solid 2px;
+    background-color: lemonchiffon;
+    opacity: .8;
+}
+

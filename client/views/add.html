@@ -1,0 +1,12 @@
+<h1 class="header">Add a New Chirp!</h1>
+<div ng-controller="postReq">
+    <div id="inputDiv">
+        <div id="formDiv">
+            <form>
+                <input class="input-messages" type="text" placeholder="user" ng-model="user" required>
+                <input class="input-messages" id="messageInput" type="message" placeholder="message" ng-model= "message" required>
+                <input id="inputBtn" type="submit" value="New Chirp!" ng-click="insertData()"></a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<h1 class="header">Chirps!</h1>
+<div ng-controller="chirpReq" >
+    <div ng-repeat="chirps in chirpList" id="result">
+        <div ng-click="deleteChirp(chirps.id)" id="taz-div">         
+        </div>
+        <div>
+            <div id="user-input-div">
+                <p id="user">User:</p>
+                <p id="userName"> {{ chirps.user }} </p>
+            </div>
+            <hr>
+            <div id="message">Chirped: </div>
+            <div ng-click="goToSingle(chirps.id)" id="userMessage">{{ chirps.message }}</div>
+        </div>
+    </div>
+</div>

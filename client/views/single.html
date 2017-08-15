@@ -1,0 +1,12 @@
+<h1 class="header">Single Chirp</h1>
+<div ng-controller="singleController" >
+    <div id="result">
+        <div ng-click="deleteChirp(singleChirp.id)" id="taz-div">         
+        </div>
+        <p id="user">User:  </p>
+        <p id="userName"> {{ singleChirp.user }} </p>
+        <hr>
+        <div id="message">Chirped: </div>
+        <div id="userMessage">{{ singleChirp.message }}</div>
+    </div>
+</div>

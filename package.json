@@ -1,0 +1,16 @@
+{
+  "name": "chirper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "latest",
+    "shortid": "^2.2.8"
+  }
+}

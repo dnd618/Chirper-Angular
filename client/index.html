@@ -1,0 +1,47 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <link rel="stylesheet" href="app/styles.css" type="text/css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+  </head>
+  <body>
+    
+    <div class="navbar">
+      <a href="#/">Home</a>
+      <a href="#list">Chirps</a>
+      <a href="#users">Users</a>      
+    </div> 
+
+<div id="sidenav">
+  <div ng-controller="userControl" id="userOptions">
+      <h2 id="userSide">Visit A User</h2>    
+      <select id="select" onchange="goToNewPage(this)">
+        <option>Users</option>
+        <option  id="user-option" ng-repeat="user in userList">{{user}}</option>
+      </select>
+  </div>
+
+  <div ng-controller="postReq">
+    <div id="whole-input">
+        <div id="index-input-div">
+          <h2 id="index-chirp">Add New Chirp!</h2>
+            <form>
+                <input class="index-input" type="text" placeholder="User" ng-model="user" required>
+                <input class="index-input" type="text" placeholder="Message" ng-model="message" required>
+                <input id="index-button" type="submit" value="New Chirp!" ng-click="insertData()">
+            </form>
+        </div>
+    </div>
+  </div>
+</div>
+
+    <div ng-view>
+    </div>
+      
+	  <script src="app/app.js"></script>
+  </body>
+</html>
